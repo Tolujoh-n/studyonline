@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Contact page {% endblock %}</title>
+</head>
+
+<body>
+
+    {% block contactcontent %}
+    <h1>This is Contact page</h1>
+    <p>Testing contact page</p>
+
+    <p>
+        We are happy to ear from you
+
+    <ol>
+        <li>This is our rules</li>
+        <li>Our regulations are as follows</li>
+        <li>Contact us as soon as possible</li>
+    </ol>
+    </p>
+
+    {% endblock %}
+
+
+
+</body>
+
+</html>
